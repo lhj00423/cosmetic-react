@@ -1,0 +1,17 @@
+.productDetail{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.productDetail h2{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.productImg{
+    text-align: center;
+}
+.productImg img{
+    border-radius: 50%;
+}

@@ -1,0 +1,23 @@
+.upload{
+    margin: 40px auto;
+    width: 100%;
+    max-width: 1200px;
+}
+.upload h2{
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+.upload table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.upload td{
+    border-bottom: 1px solid #ccc;
+    padding: 16px;
+}
+.upload td:nth-child(1){
+    width: 20%;
+}
+.upload input[type="text"], .upload textarea{
+    width: 100%;
+}

@@ -1,0 +1,54 @@
+.footer{
+    margin-top: 60px;
+    text-align: left;
+}
+.info{
+    border-top: 3px solid #333;
+    border-bottom: 1px solid #333;
+    padding: 20px 0;
+}
+
+.inner {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.info .inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info .inner > div{
+    width: 32%;
+    line-height: 1.8;
+}
+
+.info .inner h2{
+    border-bottom: 1px solid #ccc;
+    line-height: 50px;
+    font-size: 20px;
+}
+.info .inner > div div{
+    padding: 20px 0;
+}
+.info .inner > div ul{
+    padding: 20px 0;
+}
+.footermenu ul{
+    display: flex;
+    height: 60px;
+    align-items: center;
+}
+.footermenu ul li{
+    padding: 0 20px;
+    border-right: 1px solid #ccc;
+}
+.footermenu ul li:last-child{
+    border-right: none;
+}
+.address{
+    border-top: 1px solid #ccc;
+    background-color: #eee;
+    padding: 30px 0;
+}

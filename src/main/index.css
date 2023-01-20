@@ -1,0 +1,32 @@
+.visual img{
+    width: 100%;
+}
+.product {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.product h2{
+    padding-bottom: 40px;
+}
+
+.product ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.product ul li{
+    width: 24%;
+    padding-bottom: 20px;
+}
+.product ul li img{
+    width: 100%;
+}
+.product ul li h3{
+    padding: 10px;
+}
+.product ul li p{
+    padding: 0 10px;
+}

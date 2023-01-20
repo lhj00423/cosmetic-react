@@ -1,0 +1,21 @@
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.header{
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.header ul{
+    display: flex;
+}
+
+.header li{padding: 0 20px; list-style: none;}
+
